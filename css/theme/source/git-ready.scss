@@ -17,7 +17,7 @@ $mainFont: 'Open Sans', sans-serif;
 $mainColor: $myFontColor;
 $headingFont: 'Open Sans', sans-serif;
 $headingColor: $myFontColor;
-$headingLetterSpacing: -0.08em;
+//$headingLetterSpacing: -0.08em;
 $headingTextShadow: none;
 $backgroundColor: darken(#285E88, 15%);
 $linkColor: $myFontColor;
@@ -34,29 +34,10 @@ $selectionBackgroundColor: #134674;
 
 }
 
-.design-dev-cycle {
+.git {
   img {
-    background: darken(white, 5%);
-    border: 10px solid  darken(white, 5%);
-  }
-}
-
-.yeoman,
-.yo-grunt-bower {
-  img {
-    background: white;
-  }
-}
-
-.yeoman {
-  img {
-    border: 30px solid white;
-  }
-}
-
-.grunt {
-  img {
-    width: 80%;
+    background-color: white;
+    border: 20px solid white;
   }
 }
 
